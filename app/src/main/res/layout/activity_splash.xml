@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashActivity"
+    android:background="#98f5ff">
+
+    <ImageView
+        android:layout_width="366dp"
+        android:layout_height="366dp"
+        android:src="@drawable/alert_me_title"
+        android:layout_gravity="center"
+        android:id="@+id/imageView"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="140dp" />
+
+    <ImageButton
+        android:layout_width="243dp"
+        android:layout_height="228dp"
+        android:src="@drawable/cloud_start_button"
+        android:onClick="toAlarmList"
+        android:background="@null"
+        android:layout_gravity="center_horizontal|bottom"
+        android:id="@+id/imageButton"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
